@@ -1,0 +1,15 @@
+<!--Sub-gallery components-->
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>sub-gallery</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <div header-section>
+        <h1 header-title no-margin padding-left text-capitalize>{{params.data.title}}</h1>
+    </div>
+    <sub-image-gallery [data]="params.data" [events]="params.events"></sub-image-gallery>
+</ion-content>

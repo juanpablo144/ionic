@@ -1,0 +1,77 @@
+.default-background {
+    background-color: theme-colors('mainColors', 'primary');
+}
+
+.title-components {
+    color: theme-colors('textColors', 'accentDark');
+    font-size: 24px;
+    font-weight: 700;
+    clear: both;
+    display: block;
+    margin: 20px 0;
+    padding-top: 20px;
+    border-top: 1px solid theme-colors('textColors', 'secondary');
+}
+
+.title-components:nth-child(1) {
+  border: none !important;
+  font-size: 34px;
+  margin: 0;
+  padding-top: 0;
+}
+
+span.compomets {
+    display: block;
+    clear: both;
+    font-size: 17px;
+    color: theme-colors('textColors', 'accentDark');
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.block-insert {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.example-h1 {
+    font-size: $h1-font-size;
+    color: theme-colors('textColors', 'accentDark');
+    font-weight: 700;
+}
+
+.example-h2 {
+    font-size: $h2-font-size;
+    color: theme-colors('textColors', 'accentDark');
+    font-weight: 500;
+}
+
+.example-h3 {
+    font-size: $h3-font-size;
+    color: theme-colors('textColors', 'accentDark');
+    font-weight: 400;
+}
+
+.example-h4 {
+    font-size: $h4-font-size;
+    color: theme-colors('textColors', 'accentDark');
+    font-weight: 300;
+}
+
+.example-h5 {
+    font-size: $h5-font-size;
+    color: theme-colors('textColors', 'accentDark');
+    font-weight: 300;
+}
+
+.example-h6 {
+    font-size: $h6-font-size;
+    color: theme-colors('textColors', 'accentDark');
+    font-weight: 300;
+}
+
+.example-p {
+    font-size: $text-font-size;
+    color: theme-colors('textColors', 'accentDark');
+    font-weight: 300;
+}

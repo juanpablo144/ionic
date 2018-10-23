@@ -1,0 +1,27 @@
+<!--- Settings TAB lauout-9 -->
+<ion-content>
+    <ion-grid no-padding *ngIf="params != null">
+        <ion-row>
+            <ion-col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 tabPage9 *ngFor="let item of params.items; let i = index;" (click)="onItemClick(item)">
+                <ion-card text-left>
+                    <div card-image>
+                        <img [src]="item.cardImage" />
+                        <ion-badge ion-fixed item-end class="badge-dark">{{item.price}}</ion-badge>
+                        <!-- Share Button -->
+                        <button ion-fixed item-end ion-button button-action-shit (click)="onShare(item, $event)">
+                          <ion-icon name="{{item.shareIcon}}"></ion-icon>
+                        </button>
+                    </div>
+                    <!--Card descriptiom-->
+                    <ion-card-content>
+                        <ion-card-title>
+                            <h2 card-title>{{item.title}}</h2>
+                            <h1 card-subtitle>{{item.subtitle}}</h1>
+                            <p card-body-text>{{item.description}}</p>
+                        </ion-card-title>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

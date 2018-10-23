@@ -1,0 +1,31 @@
+{
+  "eventos" : [
+    {
+    "id": 1,
+    "name": "Intercesion",
+    "image": "http://mci12.com/wp-content/uploads/2018/09/corre1.jpg",
+    "description": "Es un evento de 6 a 9am en el cual nos reunimos para interceder",
+    "redes": [
+        { "facebook":"https://www.facebook.com/gracia.lab.5?ref=br_rs", "instagram":"https://www.instagram.com/gracialab.co/"}
+      ]
+    },
+    {
+    "id": 2,
+    "name":"Blow Game",
+    "image": "http://mci12.com/wp-content/uploads/2018/09/corre1.jpg",
+    "description": "Es un evento en el que vienen invitados especiales como Dj pv, ",
+    "redes": [
+        { "facebook":"https://www.facebook.com/gracia.lab.5?ref=br_rs", "instagram":"https://www.instagram.com/gracialab.co/"}
+      ]
+    },
+    {
+    "id": 3,
+    "name":"concierto",
+    "image": "http://mci12.com/wp-content/uploads/2018/09/corre1.jpg",
+    "description": "Es un evento de 6 a 9am en el cual nos reunimos para interceder",
+    "redes": [
+        { "facebook":"https://www.facebook.com/gracia.lab.5?ref=br_rs", "instagram":"https://www.instagram.com/gracialab.co/"}
+      ]
+    }
+  ]
+}
