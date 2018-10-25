@@ -1,0 +1,19 @@
+{
+  "categorys" : [
+    {
+    "id": 1,
+    "name": "Pastores",
+    "image": "http://mci12.com/wp-content/uploads/2018/09/corre1.jpg"
+    },
+    {
+    "id": 2,
+    "name":"concierto",
+    "image": "http://mci12.com/wp-content/uploads/2018/09/corre1.jpg"
+    },
+    {
+    "id": 3,
+    "name":"itercesion",
+    "image": "http://mci12.com/wp-content/uploads/2018/09/corre1.jpg"
+    }
+  ]
+}

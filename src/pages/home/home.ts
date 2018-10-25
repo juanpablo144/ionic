@@ -21,8 +21,8 @@ export class HomePage {
     service.load().subscribe(snapshot => {
       this.data = snapshot;
     });
-    this.http.get('assets/categorys.json').map(res => res.json()).subscribe(eventos => {
-    this.eventos = eventos.eventos;
+    this.http.get('assets/datos/category.json').map(res => res.json()).subscribe(eventos => {
+    this.eventos = eventos.categorys;
     for(let evento of eventos){
       let items = evento;
       console.log(items);

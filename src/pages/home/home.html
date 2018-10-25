@@ -16,6 +16,7 @@
 </ion-header>
 <!--Fist Screen Content-->
 <ion-content>
+  <!--
   <div *ngIf="data != null && data.background != null" background-size default-background [ngStyle]="{'background-image': 'url(' + data.background + ')'}">
     <div class="ionic-description" text-center>
       <h2 item-title>{{data.title}}</h2>
@@ -26,10 +27,9 @@
             {{data.description}}
         </a>
   </div>
+-->
   <ion-list>
     <ion-item *ngFor="let evento of eventos">
-      <h2>{{evento.name}}</h2>
-      <h3>{{evento.description}}</h3>
       <img src="{{evento.image}}" alt="">
     </ion-item>
   </ion-list>
