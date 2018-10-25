@@ -3,18 +3,10 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { AppSettings } from './app-settings'
 
-import { Http } from '@angular/http';
-import 'rxjs/add/operator/map';
 
 @Injectable()
 export class HomeService {
-eventos: any;
-    constructor(public af: AngularFireDatabase, public http: Http,) {
-      this.http.get('assets/categorys.json').map(res => res.json()).subscribe(eventos => {
-      this.eventos = eventos;
-      return eventos;
-      });
-    }
+    constructor(public af: AngularFireDatabase) {    }
 
     // HOME PAGE INFO
     getData = () => {
